@@ -2,14 +2,14 @@
 
 ## Assignment
 
-Create a `Person` "class" (remember, technically [there are no classes in JavaScript](http://stackoverflow.com/questions/2752868/does-javascript-have-classes)). Use the Constructor Function Object Creation Pattern. For example:  
+Create a `Person` "class" (remember, technically [there are no classes in JavaScript](http://stackoverflow.com/questions/2752868/does-javascript-have-classes)). Use the Constructor Function Object Creation Pattern. For example:
 
 ```
-var Car = function(make, model, year){  
+var Car = function(make, model, year){
   this.make = make;
   this.model = model;
   this.year = year;
-  
+
 };
 Car.prototype = {
   display: function(){
@@ -41,11 +41,13 @@ I should also be able to call these functions on a `person`:
 Be sure to make clean single-task Git commits with descriptive messages!
 
 ## Draw
-Draw diagrams how a object literal's ```__proto__``` , aka ```[[Prototype]]``` , property and Constructor Function's ```prototype``` property are related. Do this for one of the ten people. 
+Draw diagrams how a object literal's ```__proto__``` , aka ```[[Prototype]]``` , property and Constructor Function's ```prototype``` property are related. Do this for one of the ten people.
+
+![diagram](http://beigesavage.com/ga/constructor_function_diagram.JPG)
 
 ## Read (optional)
 Profession Javascript for Web Developers 3rd Edition
-Object Creation pages 180 to 216.  
+Object Creation pages 180 to 216.
 
 *Skip sections on Parasitic Constructor, Durable Constructor Function,  Parasitic Inheritance, Parasitic Common Inheritance.*
 
